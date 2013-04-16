@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+ 
+ <overlay id="opentran-contextmenu" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+ 
+ <script type="application/x-javascript" src="overlay.js"/> 
+  
+ <popup id="contentAreaContextMenu">
+  <menuitem id="context-item-TraMoz" label="MozTran" oncommand="opentranslate();"/>
+ </popup>
+ 
+</overlay>

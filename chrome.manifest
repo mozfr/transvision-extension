@@ -1,0 +1,2 @@
+content     moztran    chrome/content/
+overlay     chrome://browser/content/browser.xul chrome://moztran/content/overlay.xul
