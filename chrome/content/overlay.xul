@@ -6,8 +6,13 @@
  <script type="application/x-javascript" src="overlay.js"/> 
   
  <popup id="contentAreaContextMenu">
-  <menuitem id="context-item-TraMoz1" label="Transvision: search entity" oncommand="opentranslate('entity');"/>
-  <menuitem id="context-item-TraMoz2" label="Transvision: search string" oncommand="opentranslate('string');"/>
+	<menu id="transvision-main" label="Transvision">
+		<menupopup>
+			<menuitem id="context-item-TraMoz1" label="Search entities" oncommand="opentranslate('entity');"/>
+			<menuitem id="context-item-TraMoz2" label="Search strings" oncommand="opentranslate('string');"/>
+			<!-- menuitem id="context-item-TraMoz3" label="Search entities &amp; strings" oncommand="opentranslate('entity_string');"/ -->
+		</menupopup>
+	</menu>
  </popup>
  
 </overlay>

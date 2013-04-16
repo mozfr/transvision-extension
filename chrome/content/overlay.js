@@ -12,12 +12,15 @@ function initTranOverlay() {
 function contextPopupShowing() {
     var menuitem1 = document.getElementById("context-item-TraMoz1");
     var menuitem2 = document.getElementById("context-item-TraMoz2");
+
     if (menuitem1) {
       menuitem1.hidden = !gContextMenu.isTextSelected;
     }
-    if (menuitem2) {
+     if (menuitem2) {
       menuitem2.hidden = !gContextMenu.isTextSelected;
     }
+    
+   
 }
 
 // -------------------------------Captain Caveman code inside!
@@ -87,7 +90,8 @@ function opentranslate(search)
     } else {
         var provider = url + "entities&recherche=";
         var searchType = "search entity";
-    }
+   }
+
     var finalText = provider.concat(myText);
     var theTab = gBrowser.addTab(finalText);
     theTab.label = "Transvision:" + searchType;
