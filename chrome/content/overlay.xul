@@ -6,7 +6,8 @@
  <script type="application/x-javascript" src="overlay.js"/> 
   
  <popup id="contentAreaContextMenu">
-  <menuitem id="context-item-TraMoz" label="MozTran" oncommand="opentranslate();"/>
+  <menuitem id="context-item-TraMoz1" label="Transvision: search entity" oncommand="opentranslate('entity');"/>
+  <menuitem id="context-item-TraMoz2" label="Transvision: search string" oncommand="opentranslate('string');"/>
  </popup>
  
 </overlay>
