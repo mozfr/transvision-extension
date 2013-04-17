@@ -1,2 +1,4 @@
-content     moztran    chrome/content/
-overlay     chrome://browser/content/browser.xul chrome://moztran/content/overlay.xul
+content	moztran			chrome/content/
+locale	moztran en-US 	chrome/locale/en-US/
+locale	moztran fr		chrome/locale/fr/
+overlay	chrome://browser/content/browser.xul chrome://moztran/content/overlay.xul

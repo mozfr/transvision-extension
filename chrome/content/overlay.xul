@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
- 
+ <!DOCTYPE window SYSTEM "chrome://moztran/locale/moztran.dtd">
  <overlay id="opentran-contextmenu" 
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
  
@@ -8,8 +8,8 @@
  <popup id="contentAreaContextMenu">
 	<menu id="transvision-main" label="Transvision">
 		<menupopup>
-			<menuitem id="context-item-TraMoz1" label="Search entities" oncommand="opentranslate('entity');"/>
-			<menuitem id="context-item-TraMoz2" label="Search strings" oncommand="opentranslate('string');"/>
+			<menuitem id="context-item-TraMoz1" label="&search.entities;" oncommand="opentranslate('entity');"/>
+			<menuitem id="context-item-TraMoz2" label="&search.strings;" oncommand="opentranslate('string');"/>
 			<!-- menuitem id="context-item-TraMoz3" label="Search entities &amp; strings" oncommand="opentranslate('entity_string');"/ -->
 		</menupopup>
 	</menu>
