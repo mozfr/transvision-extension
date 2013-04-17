@@ -1,7 +1,12 @@
 transvision-extension
 =====================
 
-Firefox extension for Transvision
+MozTran is a Firefox extension for Transvision
+
+Simple use is:
+- Select one string
+- Open context menu (right-click) and select Transvision then select 'search entities' or 'search strings'
+- Search results open in a new tab.
 
 Licence: Mozilla Public License Version 1.1
 
@@ -16,5 +21,6 @@ Some of the code is from the Quick Locale Switcher Addon (https://addons.mozilla
 Download page: http://babelwiki.babelzilla.org/index.php?title=MozTran
 
 History:
-* 0.3: add a second search item in context meny for entities
-* 0.2.2: initial import of the code friom  Babelzilla
+* 0.3.1	add basic locale support (en-US, fr)
+* 0.3	add a second search item in context meny for entities
+* 0.2.2	initial import of the code from  Babelzilla
