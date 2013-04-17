@@ -1,5 +1,5 @@
 const SUPPORTED_LOCALES = new Array(
-  'af', 'ar', 'as', 'be', 'bg', 'bn-BD', 'bn-IN', 'ca', 'cs', 'cy', 'da', 'de', 'el', 'en-GB', 'en-ZA', 'eo', 'es-AR', 'es-CL', 'es-ES', 'es-MX', 'et', 'eu', 'fa', 'fi', 'fr', 'fy-NL', 'ga-IE', 'gl', 'gu-IN', 'he', 'hi-IN', 'hr', 'hu', 'hy-AM', 'id', 'is', 'it', 'ja-JP-mac', 'ja', 'ka', 'kk', 'kn', 'ko', 'ku', 'lt', 'lv', 'mk', 'ml', 'mn', 'mr', 'ms', 'nb-NO', 'ne-NP', 'nl', 'nn-NO', 'nr', 'nso', 'oc', 'or', 'pa-IN', 'pl', 'pt-BR', 'pt-PT', 'rm', 'ro', 'ru', 'rw', 'si', 'sk', 'sl', 'sq', 'sr', 'ss', 'st', 'sv-SE', 'ta-LK', 'ta', 'te', 'th', 'tn', 'tr', 'ts', 'uk', 've', 'vi', 'xh', 'zh-CN', 'zh-TW', 'zu'
+  'ach','af', 'ak', 'an', 'ar', 'as', 'ast','be', 'bg', 'bn-BD', 'bn-IN', 'br', 'bs', 'ca', 'cs', 'cy', 'da', 'de', 'el', 'en-GB', 'en-ZA', 'eo', 'es-AR', 'es-CL', 'es-ES', 'es-MX', 'et', 'eu', 'fa', 'ff','fi', 'fr', 'fy-NL', 'ga-IE', 'gl', 'gu-IN', 'he', 'hi-IN', 'hr', 'hu', 'hy-AM', 'id', 'is', 'it', 'ja-JP-mac', 'ja', 'ka', 'kk', 'km' 'kn', 'ko', 'ku', 'lg','lij','lt', 'lv', 'mai','mk', 'ml', 'mn', 'mr', 'ms', 'my','nb-NO', 'ne-NP', 'nl', 'nn-NO', 'nr', 'nso', 'oc', 'or', 'pa-IN', 'pl', 'pt-BR', 'pt-PT', 'rm', 'ro', 'ru', 'rw', 'si', 'sk', 'sl', 'son', 'sq', 'sr', 'ss', 'st', 'sv-SE', 'ta-LK', 'ta', 'te', 'th', 'tn', 'tr', 'ts', 'uk', 've', 'vi', 'wo','xh', 'zh-CN', 'zh-TW', 'zu'
 );
 
 window.addEventListener('load', initTranOverlay, false);
@@ -12,12 +12,15 @@ function initTranOverlay() {
 function contextPopupShowing() {
     var menuitem1 = document.getElementById("context-item-TraMoz1");
     var menuitem2 = document.getElementById("context-item-TraMoz2");
+
     if (menuitem1) {
       menuitem1.hidden = !gContextMenu.isTextSelected;
     }
-    if (menuitem2) {
+     if (menuitem2) {
       menuitem2.hidden = !gContextMenu.isTextSelected;
     }
+    
+   
 }
 
 // -------------------------------Captain Caveman code inside!
@@ -87,7 +90,8 @@ function opentranslate(search)
     } else {
         var provider = url + "entities&recherche=";
         var searchType = "search entity";
-    }
+   }
+
     var finalText = provider.concat(myText);
     var theTab = gBrowser.addTab(finalText);
     theTab.label = "Transvision:" + searchType;
