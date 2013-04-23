@@ -1,6 +1,10 @@
-content	moztran			chrome/content/
-locale	moztran en-US 	chrome/locale/en-US/
-locale	moztran fr		chrome/locale/fr/
-locale	moztran nl		chrome/locale/nl/
-locale	moztran sv-SE	chrome/locale/sv-SE/
+content	moztran		chrome/content/
 overlay	chrome://browser/content/browser.xul chrome://moztran/content/overlay.xul
+
+locale	moztran	en-US	chrome/locale/en-US/
+locale	moztran	fr		chrome/locale/fr/
+locale	moztran	nl		chrome/locale/nl/
+locale	moztran	pl		chrome/locale/pl/
+locale	moztran	sv-SE	chrome/locale/sv-SE/
+locale	moztran	ja		chrome/locale/ja/
+locale	moztran	zh-CN	chrome/locale/zh-CN/

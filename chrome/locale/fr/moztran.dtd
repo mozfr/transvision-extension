@@ -1,2 +1,4 @@
-<!ENTITY search.entities "Entités" >
-<!ENTITY search.strings "Chaînes" >
+<!ENTITY addontitle.label "Transvision">
+<!ENTITY search.entities "Entités">
+<!ENTITY search.strings "Chaînes">
+<!ENTITY search.entitiesStrings "Entités &amp; Chaînes">

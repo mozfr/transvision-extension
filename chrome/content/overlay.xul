@@ -1,18 +1,20 @@
 <?xml version="1.0"?>
- <!DOCTYPE window SYSTEM "chrome://moztran/locale/moztran.dtd">
- <overlay id="opentran-contextmenu" 
-         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
- 
- <script type="application/x-javascript" src="overlay.js"/> 
-  
- <popup id="contentAreaContextMenu">
-	<menu id="transvision-main" label="Transvision">
-		<menupopup>
-			<menuitem id="context-item-TraMoz1" label="&search.entities;" oncommand="opentranslate('entity');"/>
-			<menuitem id="context-item-TraMoz2" label="&search.strings;" oncommand="opentranslate('string');"/>
-			<!-- menuitem id="context-item-TraMoz3" label="Search entities &amp; strings" oncommand="opentranslate('entity_string');"/ -->
-		</menupopup>
-	</menu>
- </popup>
- 
+
+<!DOCTYPE window SYSTEM "chrome://moztran/locale/moztran.dtd">
+
+<overlay id="opentran-contextmenu" 
+				 xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript" src="chrome://moztran/content/overlay.js" />
+
+	<popup id="contentAreaContextMenu">
+		<menu id="transvision-main" label="&addontitle.label;">
+			<menupopup>
+				<menuitem id="context-item-TraMoz1" label="&search.entities;" oncommand="moztrans.opentranslate('entities');" />
+				<menuitem id="context-item-TraMoz2" label="&search.strings;" oncommand="moztrans.opentranslate('string');" />
+				<menuitem id="context-item-TraMoz3" label="&search.entitiesStrings;" oncommand="moztrans.opentranslate('entity_string');" />
+			</menupopup>
+		</menu>
+	</popup>
+
 </overlay>

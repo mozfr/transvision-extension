@@ -1,2 +1,4 @@
-<!ENTITY search.entities "Sök efter entiteter" >
-<!ENTITY search.strings "Sök efter strängar" >
+<!ENTITY addontitle.label "Transvision">
+<!ENTITY search.entities "Sök efter entiteter">
+<!ENTITY search.strings "Sök efter strängar">
+<!ENTITY search.entitiesStrings "Sök efter entiteter &amp; strängar">

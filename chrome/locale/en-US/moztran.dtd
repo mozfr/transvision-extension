@@ -1,2 +1,4 @@
-<!ENTITY search.entities "Search entities" >
-<!ENTITY search.strings "Search strings" >
+<!ENTITY addontitle.label "Transvision">
+<!ENTITY search.entities "Search in entities">
+<!ENTITY search.strings "Search in strings">
+<!ENTITY search.entitiesStrings "Search in entities &amp; strings">

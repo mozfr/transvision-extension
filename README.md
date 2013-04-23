@@ -21,6 +21,9 @@ Some of the code is from the Quick Locale Switcher Addon (https://addons.mozilla
 Download page: http://babelwiki.babelzilla.org/index.php?title=MozTran
 
 History:
+* 0.3.2	- adding more locales (pl, zh-CN, ja, sv-SE, nl) courtesy of Babelzilla translators
+		- adding a 3rd context submenu for "Search entities and strings" contrinuted by teo
+		- updating install.rdf contributed by teo 
 * 0.3.1	add basic locale support (en-US, fr)
 * 0.3	add a second search item in context meny for entities
 * 0.2.2	initial import of the code from  Babelzilla
