@@ -1,2 +1,4 @@
-<!ENTITY search.entities "Entities zoeken" >
-<!ENTITY search.strings "Strings zoeken" >
+<!ENTITY addontitle.label "Transvision">
+<!ENTITY search.entities "Entities zoeken">
+<!ENTITY search.strings "Strings zoeken">
+<!ENTITY search.entitiesStrings "Zoeken in entities en strings">
