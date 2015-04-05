@@ -72,7 +72,7 @@
 		</Description>
 	</em:localized>
 	
-		<em:localized>
+  <em:localized>
 		<Description>
 			<em:locale>ja</em:locale>
 			<em:name>MozTran</em:name>
@@ -84,7 +84,7 @@
 		</Description>
 	</em:localized>
 	
-			<em:localized>
+  <em:localized>
 		<Description>
 			<em:locale>zh-CN</em:locale>
 			<em:name>MozTran</em:name>
@@ -95,6 +95,18 @@
 			<em:translator>whknnn</em:translator>
 		</Description>
 	</em:localized>
+
+  <em:localized>
+    <Description>
+      <em:locale>zh-TW</em:locale>
+      <em:name>MozTran</em:name>
+      <em:description>自 Mozilla 的翻譯資訊資料庫 Transvision 取得譯文的附加元件。</em:description>
+      <em:creator>Goofy</em:creator>
+      <em:contributor>Pascal Chevrel</em:contributor>
+      <em:contributor>Leszek(teo)Życzkowski</em:contributor>
+      <em:translator>Peter Pin-guang Chen (petercpg)</em:translator>
+    </Description>
+  </em:localized>
 
 		<!-- Firefox -->
 	<em:targetApplication>
